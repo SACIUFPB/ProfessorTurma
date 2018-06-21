@@ -1,0 +1,112 @@
+{
+    "docente": [{
+        "name": "Teobaldo",
+        "maxCreditos": 12,
+        "minCreditos": 4,
+        "maxHorasDia": 4,
+        "maxDiasSemana": 3,
+        "select1": ["Calculo 2", "Algebra Linear"],
+        "select2": ["Circuitos Logicos 2"],
+        "select3": ["Circuitos Logicos 1"]
+    },
+    {
+        "name": "Bruno",
+        "maxCreditos": 16,
+        "minCreditos": 4,
+        "maxHorasDia": 6,
+        "maxDiasSemana": 3,
+        "select1": ["Laboratorio Linguagem de Programção 1", "Algebra Linear"],
+        "select2": ["Calculo 2"],
+        "select3": ["Topicos Especiais 1"]
+    },
+    {
+        "name": "Lincoln",
+        "maxCreditos": 16,
+        "minCreditos": 6,
+        "maxHorasDia": 6,
+        "maxDiasSemana": 5,
+        "select1": ["Laboratorio Linguagem de Programção 1", "Estrutura de Dados"],
+        "select2": ["Calculo 2"],
+        "select3": ["Circuitos Logicos 2", "Circuitos Logicos 1"]
+    },
+    {
+        "name": "Alisson",
+        "maxCreditos": 12,
+        "minCreditos": 4,
+        "maxHorasDia": 8,
+        "maxDiasSemana": 4,
+        "select1": ["Laboratorio Linguagem de Programção 1", "Estrutura de Dados"],
+        "select2": ["Calculo 2"],
+        "select3": ["Circuitos Logicos 2", "Circuitos Logicos 1"]
+    },
+    {
+        "name": "Thais",
+        "maxCreditos": 16,
+        "minCreditos": 4,
+        "maxHorasDia": 8,
+        "maxDiasSemana": "3",
+        "select1": ["Linguagem de Programação 1", "Metodologia Científica"],
+        "select2": ["Circuitos Logicos 2"],
+        "select3": ["Circuitos Logicos 1", "Topicos Especiais 2"]
+    }
+    ],
+    "diciplina": [{
+        "nome": "Calculo 2",
+        "creditosTotal": 4,
+        "creditosDia": 4,
+        "dias": ["Terça", "Quinta"],
+        "inicio": ["9"],
+        "fim": ["10.30"]
+    },
+    {
+        "nome": "Algebra Linear 2",
+        "creditosTotal": 4,
+        "creditosDia": 4,
+        "dias": ["Segunda", "Quarta"],
+        "inicio": ["9"],
+        "fim": ["10.30"]
+    },
+    {
+        "nome": "Circuitos Logicos 2",
+        "creditosTotal": 4,
+        "creditosDia": 4,
+        "dias": ["Terça", "Quinta"],
+        "inicio": ["10.30"],
+        "fim": ["11.30"]
+    },
+
+    {
+        "nome": "Circuitos Logicos 1",
+        "creditosTotal": 4,
+        "creditosDia": 4,
+        "dias": ["Segunda", "Quarta"],
+        "inicio": ["10.30"],
+        "fim": ["11.30"]
+    },
+    {
+        "nome": "Topicos Especiais 1",
+        "creditosTotal": 2,
+        "creditosDia": 2,
+        "dias": ["Segunda", "Quarta"],
+        "inicio": ["14"],
+        "fim": ["15.30"]
+    }, 
+
+    {
+        "nome": "Topicos Especiais 2",
+        "creditosTotal": 2,
+        "creditosDia": 2,
+        "dias": ["Terça", "Quinta"],
+        "inicio": ["14"],
+        "fim": ["15.30"]
+    },
+    {
+        "nome": "Estrutura de Dados",
+        "creditosTotal": 4,
+        "creditosDia": 4,
+        "dias": ["Quarta", "Sexta"],
+        "inicio": ["14"],
+        "fim": ["15.30"]
+    }
+    ]
+}
